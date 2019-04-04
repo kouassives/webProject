@@ -1,0 +1,90 @@
+
+
+
+#tab
+{
+
+	color: rgb(237,91,39);
+	font-size: 20px;
+	background-color: rgba(230,230,230,0.4);
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#tab em
+{
+	position: relative;
+	left: 19%;
+
+}
+#repe
+{
+	color: white;
+	position: relative;
+	left: 19%;
+}
+form  #fbconec
+{
+	display: inline-block;
+	text-decoration: none;
+	margin-right : 30px;
+	vertical-align: middle;
+	border: 2px solid ;
+	padding: 6px 6px 6px 6px;
+	background-color: rgb(0,99,198);
+	color: white;
+	width: 400px;
+	text-align: center;
+}
+ #fbconec:hover
+{
+	background-color: white;
+	color: blue;
+}
+form #gconec
+{
+	display: inline-block;
+	margin-right : 30px;
+	text-decoration: none;
+	vertical-align: middle;
+	border: 2px solid ;
+	padding: 6px 6px 6px 6px;
+	background-color:rgb(237,91,39) ;
+	color: white;
+	width: 400px;
+	text-align: center;
+
+}
+form #gconec:hover
+{
+	background-color: white;
+	color: rgb(237,91,39);
+}
+.divc
+{
+	display: inline-block;
+	vertical-align: baseline;
+}
+.champ
+{
+	width: 400px;
+	height: 30px;
+}
+
+ #btenvoie
+{
+	background-color: rgb(237,91,39);
+	color: white;
+	text-decoration: none;
+	margin-top: 70px;
+	border: 2px solid ;
+	padding: 4px 4px 4px 4px;
+}
+
+
+ #btenvoie:hover
+{
+	background-color: white;
+	color: rgb(237,91,39)
+}
+
+

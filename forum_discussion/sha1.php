@@ -1,0 +1,1 @@
+<?php echo sha1("jipijipi")?>

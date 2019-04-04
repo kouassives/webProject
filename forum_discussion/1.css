@@ -1,0 +1,79 @@
+/* PAGE PRINCIPALE*/
+body
+{
+	border: 1px black solid;
+	min-height: 1024px;
+	color: #010101;
+	background: url('images/fond.png');
+}
+
+#block_page
+{
+	width: 1024px;
+	margin:auto;
+}
+
+header
+{
+	background: url("images/bgbanniere.png");
+	height: 150px;
+}
+
+header div
+{
+	display: inline-block;
+}
+
+.titre_principale
+{
+	font-size:12px;
+}
+
+#hd2
+{
+	display: inline-block;
+	float: right;
+}
+
+div img
+{
+	display: block;
+}
+
+#pannel_sincrire_connexion
+{
+	float: right;
+}
+
+
+header ul li
+{
+	display: inline-block;
+}
+li
+{
+	list-style-type: none ;
+}
+#rech
+{
+	float: right;
+	display: absolute;
+	top: 300px;
+}
+
+#menu,section
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+footer
+{
+	width: 500px;
+	margin: auto;
+	position: fixed;
+	bottom: -18px;
+	right: 10%;
+	left: 10%;
+}

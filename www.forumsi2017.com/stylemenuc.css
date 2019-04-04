@@ -1,0 +1,81 @@
+
+
+body {
+    margin: auto;
+    padding: 0;
+    height: 100%;
+    background-image: url("kim.jpg") ;
+    background-attachment: fixed;
+    min-width: 600px;
+
+}
+
+#divmenu
+{
+	box-shadow: 0px 3px 0px rgba(128,128,128,0.5);
+
+}
+#logo,nav
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#divmenu li
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	font-size: 18px;
+
+}
+
+#divmenu a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#divdroit
+{
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+#divdroit a
+{
+	color: white;
+	border: 2px solid ;
+	padding: 4px 4px 4px 4px;
+}
+#recherch
+{
+	width: 300px;
+	height: 30px;
+	border: 1px solid rgb(200,200,200);
+	border-radius: 4px;
+}
+
+#lieni
+{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: rgb(237,91,39);
+	text-decoration: none;
+}
+#lienc
+{
+	background-color:rgb(128,128,128); 
+	text-decoration: none;
+}
+#lienc:hover
+{
+	background-color:white; 
+	color: rgb(128,128,128);
+}
+
+#lieni:hover
+{
+	background-color: white;
+	color: rgb(237,91,39);
+}

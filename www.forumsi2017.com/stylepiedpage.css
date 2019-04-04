@@ -1,0 +1,39 @@
+#divpied
+{
+	display: inline-block;
+	background: rgba(100,100,100,0.3);
+	color: white;
+	height: 200px;
+	width: 100%;
+	
+	
+}
+#divpied div
+{
+	display: inline-block;
+	margin-left: 10%;
+	vertical-align: center;
+	margin-right: 10%;
+}
+
+#divpied div #lienn
+{
+	color: white;
+	text-decoration: none;
+}
+#divpied div #liens
+{
+	color: white;
+	text-decoration: none;
+}
+
+#divpied div #lienn:hover
+{
+	color: white;
+	text-decoration: none;
+}
+#divpied div #liens_nous:hover
+{
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,30 @@
+<?php 
+	$bdd = new PDO('mysql:host=localhost;dbname=forum1', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	if( isset($_POST['nom']) and isset($_POST['prenoms']) and isset($_POST['pseudo']) and isset($_POST['niveau']) and isset($_POST['sexe']) and isset($_POST['email']) and isset($_POST['preferences']) )
+	{
+		$req = $bdd->prepare(' INSERT INTO Utilisateur(nom,prenoms,pseudo,mdp,niveau,sexe,email,biographie,preference) VALUES(?,?,?,?,?,?,?,?,?) ');
+		$req->execute(array($_POST['nom'],$_POST['prenoms'],$_POST['pseudo'],$_POST['mdp'],$_POST['niveau'],$_POST['sexe'],$_POST['email'],$_POST['biographie']));
+		echo $_POST['nom'] .'Inscription reussie votre pseudo est '.$_POST['pseudo'];
+	}
+	else
+	{
+		echo 'Remplissez correctement tous les champs';
+	}
+?>
+
+
+
+
+<?php 
+$bdd = new PDO('mysql:host=localhost;dbname=forum1', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+	if(1)
+	{
+		$req = $bdd->prepare(' INSERT INTO Utilisateur(nom,prenoms,pseudo,mdp,niveau,sexe,email,biographie) VALUES(?,?,?,?,?,?,?,?) ');
+		$req->execute(array($_POST['nom'],$_POST['prenoms'],$_POST['pseudo'],$_POST['mdp'],$_POST['niveau'],$_POST['sexe'],$_POST['email'],$_POST['biographie']));
+		echo $_POST['nom'] .' Votre inscription est reussie et votre pseudo est '.$_POST['pseudo'];
+	}
+	else
+	{
+		echo 'Remplissez correctement tous les champs';
+	}
+?>
